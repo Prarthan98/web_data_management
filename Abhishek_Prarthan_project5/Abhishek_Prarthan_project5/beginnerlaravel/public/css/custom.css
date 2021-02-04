@@ -1,0 +1,646 @@
+ /* ------------------- Font-family -------------- */
+@font-face {
+    font-family: "montserratBold";
+    src: url("../fonts/Fonts/Montserrat-Bold.otf");
+}
+@font-face {
+    font-family: "montserratRegular";
+    src: url("../fonts/Fonts/Montserrat-Regular.otf");
+}
+@font-face {
+    font-family: "montserratMedium";
+    src: url("../fonts/Fonts/Montserrat-Medium.otf");
+}
+@font-face {
+    font-family: "montserratLight";
+    src: url("../fonts/Fonts/Montserrat-Light.otf");
+}
+@font-face {
+    font-family: "montserratItalic";
+    src: url("../fonts/Fonts/Montserrat-ExtraLightItalic.otf");
+}
+@font-face {
+    font-family: "RobotoRegular";
+    src: url("../fonts/Fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "RobotoItalic";
+    src: url("../fonts/Fonts/Roboto-Italic.ttf");
+}
+/* ----------------- common CSS ---------------- */
+body{
+    font-family: 'RobotoRegular';
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+}
+label{
+  margin:0 !important;
+}
+a{
+  text-decoration: none;
+  color: #222222;
+}
+.hex-dark{
+    background-color: #222222;
+}
+.active-page{
+  color: #e65c00 !important; 
+}
+.fontItalic{
+    font-family: 'montserratItalic';
+}
+#wrapper{
+    width: 80%;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "montserratRegular";
+    font-weight: 600;
+}
+.fit-width{
+width: 100%;
+}
+.inline{
+    display: inline-block;
+}
+.pos_rel{
+position: relative;
+}
+.pos_abs{
+    position: absolute;
+}
+.txt-cntr{
+    text-align: center;
+}
+.flt-left{
+float: left;
+}
+.flt-rght{
+    float: right;
+}
+footer{
+    font-size: .70em;
+}
+/*--------------commonCss Ends---------------------*/
+ /*Header Begins */
+  .active{
+    color: red;
+  }
+  .crsr-ptr{
+    cursor: pointer;
+  }
+  .dflt-clr{
+    color: #000000 !important;
+    text-decoration: none !important;
+  }
+  /**/
+
+	/* Footer starts */
+
+.f{
+    background-image: url(../images/Images/homepage-one-banner.jpg);
+    color:#ffffff;
+   _ background-size: cover;
+}
+
+.f_icons{
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}
+.f_icons>a{
+   opacity: 0.7;
+}
+
+.f_bottom{
+background-color: #000000;
+opacity: 0.4;
+color: #ffffff;
+ }
+
+.ltr-spac{
+    letter-spacing: 2%;
+}
+.scroll_top{
+    border: 1px solid red;
+  background-color: red;
+  color: #ffffff;
+  padding: 0.7%;
+    left: 75%;
+    margin: -56px 0px 0 0px;
+  float: right !important;
+  position: absolute;
+}
+.scroll_top>a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.ip_f{
+    margin: 0 2% 0 8%;
+    padding: 0.5% 5% 0.5% 1%;
+}
+.f_button{
+    border: none;
+    background: transparent;
+    background-color: #e65c00;
+    color: #ffffff;
+    padding: 7px 15px 5px 15px;
+}
+/* footer ends */
+
+/* Incio Begins */
+.inicio-p{
+    padding:6% 3% 0% 0%;
+}
+.inicio-back{
+    background-image: url("../images/Images/homepage-one-banner.jpg");
+    background-size: cover;
+    /*margin-top: -40px;*/
+  }
+  .inicio-back1{
+    background-image: url("../images/Images/objects.png");
+    background-position:left-top;
+    background-repeat: no-repeat;
+    background-size:contain;
+    /*height:100%;*/
+  }
+  .orange-header1
+  {
+    padding-top:100px;
+    margin-left:15%;
+    color: #e65c00;
+    font-size : 80px;
+    font-weight : 600;
+    font-family: "Roboto";
+    font-size: 300%;
+    padding-top: 3%;
+  }
+   
+  .inicio-text1{
+  font-family: "RobotoRegular";
+  color: #ffffff;
+  margin-left:15%;
+  font-size : 20px;
+  padding-bottom:5%;
+  width: 50%;
+  word-break: break-word;
+  font-size: 125%;
+  }
+ 
+  .inicio-header{
+  font-family: "RobotoRegular";
+  color: lightgrey;
+  margin-left:15%;
+  font-weight : 600;
+  font-size : 300%;
+  padding-top: 3%;
+  }
+    .incino_style{
+  background: #e65c00;
+}
+
+.incino_style1{
+  background-image: url("../images/Images/homepage-one-banner.jpg");
+}
+
+.incino_table{
+ 
+  width: 100%;
+}
+
+.incino_div{
+  text-align: center;
+  padding: 5%;
+}
+
+
+.incino_style2{
+  background: #bfbaba;
+}
+
+
+.incino_style3{
+  padding: 0%;
+  padding-left: 25%;
+  position: relative;
+
+}
+
+
+.inicio_registrate{
+    color: white;
+    font-size: 200%;
+    padding-left: 75px;        
+    }
+
+   .inicio_noso{
+    color: #e65c00;
+    font-size: 200%;
+    padding-left: 0px;    
+    }
+
+    .inicio_para{
+    color: white;
+    padding-left: 75px;            
+    }
+
+    .check{
+        padding-top: 1px;
+    }
+    .foo{
+    padding-left: 75px;
+    }
+
+    .foo2{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: transparent;
+    color: white;
+    opacity: 0.6;
+    border-width: 1px;
+    padding-right: 14%;
+    padding-left: 10px;
+    }
+
+    .foo4{
+    margin-right: 0%;
+    margin-bottom: 10px;
+    background: transparent;
+    color: white;
+    padding-right: 21%;
+    padding-left: 10px;
+    opacity: 0.4;
+    border-width: 1px;
+   
+    }
+
+    .foo3{
+    padding-right: 1px;
+   
+    }
+
+
+
+    .obv_nuestros {
+    padding: 0%;
+    border-spacing: 10%;
+    border: 0px solid;
+   
+    }
+   
+    .inicio_ca{
+    border-bottom: 2px solid #e65c00;
+    }
+
+    .inicio_obv{
+    border: 0px solid;
+    padding: 0px;
+    box-shadow: 1px 1.5px 5px 5px #DCDCDC;
+    width: 50%;
+    /*height: 10%;*/
+    }
+    .inicio_estra{
+    color: #e65c00;
+    }
+
+
+/* Inicio Ends */
+
+/*--------------------------Class Nosotros Begins --------------------------*/
+#nostros-wrap{
+margin-left:10%;
+margin-right:10%;
+}
+
+.table-container{
+margin-top: 80px;
+
+}
+.table-container th
+{
+text-align: left;
+padding-left: 20px;
+}
+.table-container td
+{
+padding-right: 20px;
+padding-left: 20px;
+}
+
+.container-grid {
+    margin-top: 15%;
+    margin-left: 2%;
+    margin-right: 10%;
+    display: grid;
+    width: 100%;
+    grid-gap: 20px;
+    grid-template-columns: 28% 28% 28%;
+    color: grey;
+    border: none;
+    padding: 10px;
+}
+
+.grid-container1{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  grid-row: 1/3;
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding-top:5%;
+  padding-bottom:16%;
+  padding-right: 8%;
+  padding-left:8%;
+  border-color:grey;
+  word-break: break-word;
+  grid-template-columns: 0% 0% 0% 0%;
+  grid-template-rows: 0% 0% 0% 0%;
+ 
+ }
+.hght1{
+    height: auto;
+}
+
+ .hght2{
+    height: auto;
+ }
+
+ .hght3{
+    height: auto;
+ }
+
+.valores-top{
+margin-top: 13%;
+}
+ .grid-valores{
+margin-top: 0px;
+}
+.grid-valores th{
+text-align: left;
+padding-left: 20px;
+}
+.grid-valores td{
+padding-right: 20px;
+padding-left: 20px;
+}
+#line-hr{
+width: 7%;
+    height: 3px;
+    float: left;
+    border:none;
+    background-color: #e65c00;
+}
+.class_banner{
+   color:#ffffff;
+   padding:2% 0 2% 0;
+   margin:0 auto;
+   background-image: url(../images/Images/homepage-one-banner.jpg) !important;
+   filter: blur(.5px);
+  -webkit-filter: blur(.5px);
+}
+.class_banner>span{
+   padding: 0 10px 0 10px;
+}
+/*-----------------------Class Nostros Ends---------------------------*/
+
+/* --------------------- Class Body-Equipos ------------------------- */
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+    padding: 10px;
+    padding-left: 0.5%;
+    width: 109%;
+  }
+ 
+  .grid-container2 > div {
+    border-style: solid;
+    text-align: center;
+    padding: 20px 5px 36px 6px;
+    text-align: center;
+    border-color: silver;
+    border-width: 0.5px;
+    width: 100%;
+  }
+  .row1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+    padding-left: 0.4%;
+    width: 113.8%;
+  }
+  .row1 > div{
+    border-style: solid;
+    text-align: center;
+    padding: 10px 0;
+    border-color: silver;
+    border-width: 0.5px;
+    }
+  .item>img{
+    width: 60%;
+    align-items: center;
+  }
+  .item>h1,h4,h5,h6{
+      margin: 0;
+      padding: 0;
+      opacity: 0.6;
+      font-weight: 600;
+      font-size: large;
+  }
+  .item>span{
+    opacity: 0.6;
+    font-size: small;
+  }
+/* --------------------- Class Body-Equipos Ends ------------------------- */
+
+/* -----------------------  Class Body-Contacto  ---------------------- */
+
+.div_main{
+    display: inline-flex;
+    margin: 0% 2% 0 18%;
+}
+.left-block{
+    width: 40%;
+    margin-bottom:7%;
+    padding: 0px 1% 0 0px;
+}
+.smedia-width{
+width:20%;
+}
+.hr-left{
+    height: 4px;
+    width: 15%;
+    float: left;
+    border: none;
+    background-color: #e65c00;
+}
+.hr-right{
+    height: 4px;
+    width: 15%;
+    margin: 0 0px 0 2%;
+    float: left;
+    border: none;
+    background-color: #e65c00;
+}
+.contact-info{
+border: none;
+opacity: 0.5;
+}
+.contact-info>label{
+    float: left;
+    text-align: left;
+}
+.contact-info>input{
+float: left;
+padding: 1% 1% 1% 1%;
+margin: 5px 0px 0px 1px;
+width: 80%;
+}
+.contact-info>textarea{
+float: left !important;
+}
+.button-Envar{
+    float: left;
+    border: none;
+    background: transparent;
+    background-color: #e65c00;
+    color: #ffffff;
+    margin: 5% 6% 25% 3%;
+    padding: 5%;
+}
+.span-contact-link{
+    font-family:montserratItalic;
+    color: #e65c00;
+    float:left;
+}
+/* -----------------      Class Body-Contacto Ends --------------------------- */
+/*-------------------------Class Login starts-------------------------------*/
+.sesion-cover{
+    background-image: url("../Images/homepage-one-banner.jpg");
+    background-size: cover;
+    padding:0;
+    margin-top: -40px;
+  }
+
+  .sesion-cover1{
+    background-image: url("../Images/objects.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+  }
+ 
+  .background-fade{
+  filter: brightness(50%);
+  margin-top:40px;
+  opacity: 0.8;
+  }
+ 
+  .inicio-content{
+  font-family: "RobotoRegular";
+  color: #ffffff;
+  margin-left:15%;
+  font-size : 20px;
+  }
+ 
+  .cover-heading-sub{
+  font-family: "RobotoRegular";
+  color: lightgrey;
+  margin-left:15%;
+  font-weight : 600;
+  font-size : 60px;
+  }
+
+  .p-top{
+    padding:8% 0 0 0;
+  }
+
+  .cover-heading{
+  margin-left:15%;
+  font-size : 80px;
+  font-weight : 600;
+  }
+ 
+ 
+  .modalpopup{
+      position:absolute;
+      left:30%;
+      top : 50px;
+      padding: 10px;
+      background: #fff;
+      border: 1px solid #666;
+      border-radius: 6px;
+      width: 38%;
+      height : 56%;
+      border-color:lightgrey;
+  }
+    .modalpopup>h2 {
+      margin-top: 0px;
+      color: #222222;
+    }
+ 
+  .container>label{
+  font-size:14px;
+  font-family:"RobotoRegular";
+  }
+ 
+  .form-input{
+    width: 100%;
+    margin: 8px 0;
+    margin-top: 10px;
+    font-family: "RobotoRegular";
+    font-size: 14px;
+    text-indent: 5px;
+    height: 30px;
+  }
+
+  .sub-button{
+  position:absolute;
+  color:#ffffff;
+  border: none;
+  font-size:22;
+  right:10px;
+  bottom:10px;
+  padding : 12px 28px;
+  background-color: #e65c00;
+  height:50px;
+  }
+ 
+  .hr-form{
+  position:absolute;
+  opacity: 0.4;
+  right:0;
+  left:0;
+  }
+ 
+  .form-container{
+  margin-top:50px;
+  margin-left:2px;
+  margin-right :2px;
+  }
+  .form-container>label{
+      opacity: 0.4;
+  }
+ 
+/* -------------------------Class Login Ends-------------------------------- */
+
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+}
+
+
+h5{
+    font-size: 1.4em !important;
+} 
+h4{
+    font-size: 1.2em !important;
+} 
